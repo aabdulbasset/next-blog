@@ -16,10 +16,10 @@ export function Newsletter() {
           "newsletter-container flex flex-col gap-5 bg-white rounded-md shadow-md p-6"
         }
       >
-        <text className={" text-gray-400"}>
+        <j3 className={" text-gray-400"}>
           Subscribe to our newsletter to be among the first to keep up with the
           latest updates.{" "}
-        </text>
+        </j3>
         <TextField id="outlined-basic" label="Email" variant="outlined" />
         <Button onClick={handleSubscribe} type={"submit"}>
           Subscribe

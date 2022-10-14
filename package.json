@@ -15,6 +15,7 @@
     "@mui/material": "^5.10.3",
     "@supabase/supabase-js": "^2.0.0-rc.8",
     "graphql": "^16.6.0",
+    "html-react-parser": "^3.0.4",
     "moment": "^2.29.4",
     "next": "12.2.5",
     "prettier": "^2.7.1",

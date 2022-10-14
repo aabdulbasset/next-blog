@@ -1,9 +1,11 @@
-**TODO**  
-- oAuth system (github)
-- Add New post
-- Protected Posting System
-- View post
-- Possibly add a comment?
+**TODO List**  
+-[ ] oAuth system (github)  
+-[ ] Add New post  
+-[ ] Protected Posting System
+-[x] View post
+-[x] Home page
+
+- [ ] ~~Possibly add a comment?~~
 
 **Stack**  
 - Supabase
@@ -13,3 +15,4 @@
 - GraphQL
 - HeadlessCMS
 - TailwindCSS
+- Material UI

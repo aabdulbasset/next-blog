@@ -3,17 +3,17 @@ import { Avatar } from "@mui/material";
 import readingTime from "reading-time";
 export function HomePostComponent({ post }) {
   const { coverImage, author, excerpt, publishedAt, title, content } = post;
-  console.log(post);
+
   return (
     <div
       className={
-        "flex md:flex-row flex-col justify-center items-center gap-6 p-4 rounded-md border border-stone-300 bg-white drop-shadow-sm max-w-3xl"
+        "flex md:flex-row flex-col justify-center items-center gap-6 p-4 rounded-md border border-stone-300 bg-white shadow-md max-w-3xl hover:-translate-y-1 transition-all"
       }
     >
       <img className={"max-w-[300px] rounded-md"} src={coverImage.url}></img>
       <div id={"post-text"} className={"flex flex-col gap-6 justify-between"}>
         <h1 className={"font-bold"}>{title}</h1>
-        <text className={"text-slate-500"}>{excerpt}</text>
+        <h2 className={"text-slate-500"}>{excerpt}</h2>
         <div id={"metadata"} className={"flex gap-2"}>
           <Avatar alt="Remy Sharp" src={author.picture.url} />
           <div id={"author-info"} className={"flex flex-col justify-between"}>

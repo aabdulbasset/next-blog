@@ -30,19 +30,9 @@ export async function getStaticProps(context) {
     `,
   });
 
-  const tagsData = await apolloClient.query({
-    query: gql`
-      query MyQuery {
-        tags {
-          name
-        }
-      }
-    `,
-  });
   return {
     props: {
       posts: data.posts,
-      tags: tagsData.data.tags,
     }, // will be passed to the page component as props
   };
 }
